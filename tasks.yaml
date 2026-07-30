@@ -17,7 +17,7 @@ spec:
         runAsNonRoot: false
         runAsUser: 0
       script: |
-      set -e
+              set -e
 
       echo "***** Environment *****"
       npm --version
